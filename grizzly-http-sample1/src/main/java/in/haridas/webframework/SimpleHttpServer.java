@@ -11,7 +11,7 @@ public class SimpleHttpServer {
     private static final Logger logger = LoggerFactory.getLogger(SimpleHttpServer.class);
 
     public static void main(String[] args ) throws Exception {
-        logger.info("Starting the HTTP Server on port 8080..");
+        logger.info("Starting the HTTP Server on port 8080.");
 
         HttpServer server = HttpServer.createSimpleServer();
 
